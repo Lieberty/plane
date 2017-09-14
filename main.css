@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contentdiv{
+    position: absolute;
+    left: 500px;
+}
+#startdiv{
+    width: 320px;
+    height: 600px;
+    background-image: url(./image/开始背景.jpg);
+}
+button{
+    outline: none;
+}
+#startdiv button{
+    position: absolute;
+    top: 500px;
+    left: 117px;
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #ff590b;
+    font-weight: bold;
+    font-size: 18px;
+}
+#maindiv{
+    width: 320px;
+    height: 600px;
+    background-image:url(./image/background.jpg) ;
+    display: none;
+    border:1px solid #f9344c;
+}
+#maindiv img{
+    position: absolute;
+    z-index: 1;
+}
+#scorediv{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+    display: none;
+}
+#lifediv{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+    color: red; 
+    z-index: 5;
+}
+#enddiv{
+    position: absolute;
+    top: 210px;
+    left: 75px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#f9344c;
+    display: none;
+    z-index: 2;
+    border-radius: 18px;
+}
+.plantext{
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#planscore{
+    width: 160px;
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+#enddiv div{
+    width: 160px;
+    height: 50px;
+}
+#enddiv div button{
+    margin-top:10px ;
+    width: 90px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: #ff590b;
+    font-weight: bold;
+}

@@ -276,6 +276,7 @@ function start(){
 }
 
 //开始游戏按钮点击事件
+var set;
 function begin(){
     move();
     startdiv.style.display="none";
@@ -285,7 +286,7 @@ function begin(){
     lifediv.style.display="block";
    
     //调用开始函数
-    var set=setInterval(start,20);
+    set=setInterval(start,20);
 }
 //游戏结束后点击继续按钮事件
 function jixu(){
